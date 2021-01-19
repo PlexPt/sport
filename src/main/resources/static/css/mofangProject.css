@@ -1,0 +1,531 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: url('../images/mofang.ico'), default;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.iw_poi_title {
+    color: #CC5522;
+    font-size: 14px;
+    font-weight: bold;
+    overflow: hidden;
+    padding-right: 13px;
+    white-space: nowrap
+}
+
+.iw_poi_content {
+    font: 12px arial, sans-serif;
+    overflow: visible;
+    padding-top: 4px;
+    white-space: -moz-pre-wrap;
+    word-wrap: break-word
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navCon {
+    display: none;
+}
+
+.left_logo {
+    width: 170px;
+    /*height: 67px;*/
+    /*height: 12vh;*/
+    margin-left: 85px;
+}
+
+.about_title {
+    text-align: center;
+    padding: 45px 0;
+
+}
+
+.main_tilte {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.sub_title {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.info_con {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    align-items: center;
+}
+
+.left_info_logo {
+    width: 400px;
+    margin-right: 40px;
+}
+
+.right_details {
+    width: 550px;
+}
+
+.right_details > p {
+    font-size: 12px;
+    color: #666;
+    line-height: 1.8;
+    text-indent: 2em;
+}
+
+.info_main_title {
+    color: #D0A680;
+    font-size: 22px;
+}
+
+.info_sub1_title {
+    color: #999;
+    font-size: 14px;
+}
+
+.info_sub2_title {
+    color: #333;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.about_tiltes p {
+    line-height: 1.8;
+}
+
+.partner_list {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    margin: 0 auto;
+    margin-bottom: 3vh;
+}
+
+.partner_list li {
+    width: 150px;
+    height: 70px;
+}
+
+.partner_list li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    height: 100px;
+    background-color: #666;
+    color: #c2c2c2;
+    font-size: 11px;
+    position: relative;
+}
+
+.foot_con {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.photo_cons {
+    display: flex;
+    align-items: center;
+    /*margin-bottom: 10px;*/
+}
+
+.gongZhongHaos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.code_con {
+    width: 60px;
+    margin-right: 15px;
+}
+
+.code_con p {
+    margin-bottom: 2px;
+    font-size: 12px;
+}
+
+.foot_name {
+    font-style: italic;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.photo_cons .iconfont {
+    font-size: 28px;
+    color: rgb(75, 75, 75);
+}
+
+.footer_phone {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.photo_cons > section {
+    margin-right: 15px;
+}
+
+.foot_left {
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+
+.c_dark_grey {
+    color: rgb(75, 75, 75);
+    margin-bottom: 5px;
+}
+
+.c_dark_grey a {
+    color: rgb(75, 75, 75);
+}
+
+.phone_add_email {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.phone_add_email li {
+    flex: 1;
+}
+
+.phone_add_email li:nth-of-type(2) {
+    flex: 1.5;
+}
+
+.phone_add_email li > div {
+    width: 4vw;
+    height: 4vw;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1vh;
+}
+
+.phone_add_email li > div .iconfont {
+    font-size: 1.8vw;
+    color: #333;
+}
+
+.phone_add_email li p {
+    font-size: .8vw;
+    color: #333;
+}
+
+.address_img {
+    width: 70vw;
+    height: 60vh;
+    margin: 0 auto;
+    margin-bottom: 8vh;
+}
+
+.mofangkuai_nav {
+    display: flex;
+    padding: 2vh 6vw;
+}
+
+.mofangkuai_nav li {
+    flex: 1;
+    font-size: 1vw;
+    color: #333;
+    text-align: center;
+    padding: 1vh 0;
+    cursor: pointer;
+    margin: 0 1vw;
+}
+
+.mofangkuai_nav li:hover {
+    background-color: #D0A680;
+    color: #fff;
+}
+
+.mofangkuai_nav li.active {
+    background-color: #D0A680;
+    color: #fff;
+}
+
+.mofangkuai_nav_con > .zhuangshi_ul > li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #D0A680;
+    border-radius: .2vw;
+    margin-bottom: 2vh;
+    padding: 2vh 4vw 2vh 2vw;
+}
+
+.info_left_img {
+    width: 20vw;
+    height: 20vh;
+}
+
+.mofangkuai_nav_con > .zhuangshi_ul {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.right_detai_words {
+    font-size: .9vw;
+    color: #333;
+    width: 30vw;
+}
+
+.tese_title {
+    color: #D0A680;
+    font-size: 1.2vw;
+    margin-bottom: 1vh;
+}
+
+.right_sub_detail {
+    padding-top: 2vh;
+}
+
+.right_sub_detail li {
+    position: relative;
+    padding-left: 1vw;
+    margin-bottom: .6vh;
+}
+
+.right_sub_detail li:before {
+    content: "";
+    display: inline-block;
+    width: .5vw;
+    height: .5vw;
+    border-radius: 50%;
+    background-color: #D0A680;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.chuangyi_ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 90px;
+}
+
+.chuangyi_ul > li {
+    width: 50%;
+    /*width: 400px;*/
+    height: 345px;
+    /* position: relative; */
+    cursor: pointer;
+    /* transition: all linear .8s; */
+    overflow: hidden;
+}
+
+.chuangyi_ul > li > div {
+    position: relative;
+    top: 0;
+    transition: all .1s linear .2s;
+}
+
+.chuangyi_ul > li > div > img {
+    display: inline-block;
+    width: 98%;
+    height: 345px;
+}
+
+.chuangyi_ul > li > div > p {
+    font-size: 1vw;
+    color: #333;
+    height: 25px;
+    line-height: 25px;
+    text-align: left;
+    width: 100%;
+    background-color: #fff;
+}
+
+.chuangyi_ul > li:hover div {
+    top: -25px;
+
+}
+
+.two_inputs {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+.two_inputs > li {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.two_inputs > li > div {
+    margin-right: 10px;
+}
+
+.two_inputs > li > input {
+    width: 240px;
+    height: 30px;
+    line-height: 30px;
+    border: none;
+    border: 1px solid #ccc;
+    text-indent: 1em;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.two_inputs > li > span {
+    color: #f00;
+}
+
+
+
+.one_inputs {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+.one_inputs > li {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.one_inputs > li > div {
+    margin-right: 10px;
+}
+
+.one_inputs > li > input {
+    width: 240px;
+    height: 30px;
+    line-height: 30px;
+    border: none;
+    border: 1px solid #ccc;
+    text-indent: 1em;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.one_inputs > li > span {
+    color: #f00;
+}
+
+
+
+
+.message_con {
+    width: 950px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #666;
+}
+
+.msg_area {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.msg_area > li:nth-of-type(1) {
+    margin-right: 10px;
+}
+
+.msg_area > li > textarea {
+    width: 850px;
+    padding: 10px 5px;
+    text-indent: 0.5em;
+    font-size: 12px;
+    color: #666;
+}
+
+.sub_btn {
+    padding: 3px 10px;
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #8e8e8e;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.p_sub_btn {
+    padding-top: 1vh;
+}
+
+.mofangkuai_nav_cons {
+    padding: 4vh 0;
+}
+
+.mofang_kongjian {
+    padding: 6vh 0;
+}
+
+.kuai_title {
+    text-align: center;
+    font-size: 1vw;
+    color: #333;
+    padding: 1vh 0;
+}
+
+.goup-container {
+    position: fixed !important;
+    bottom: 6vh !important;
+    transform: translateY(-50%) !important;
+    right: 5vw !important;
+}
+
+
+.detail-content{
+    margin: auto;
+    width: 90%;
+    min-height: 400px;
+}
+
+.detail-title{
+    text-align: center;
+    line-height: 70px;
+    font-size: 30px;
+}
+
+

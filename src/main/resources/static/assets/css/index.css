@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    cursor: url('/images/mofang.ico'), default;
+}
+
+ul, li {
+    list-style: none;
+}
+
+html, body {
+    font-family: "Microsoft YaHei";
+
+}
+
+#banner {
+    width: 100%;
+    height: 85vh;
+    position: relative;
+}
+
+#banner #play {
+    width: 100%;
+    height: 85vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#banner #play li {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#banner #play li img {
+    width: 100%;
+    height: 85vh;
+    float: left;
+}
+
+#button {
+    position: absolute;
+    bottom: 20px;
+    left: 90vw;
+}
+
+#button li {
+    margin-left: 10px;
+    float: left;
+}
+
+#button li div {
+    width: 16px;
+    height: 16px;
+    background: #DDDDDD;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#prev {
+    width: 40px;
+    height: 63px;
+    background: url(/images/beijing.png) 0 0;
+    position: absolute;
+    top: 205px;
+    left: 10px;
+    z-index: 1000;
+}
+
+#next {
+    width: 40px;
+    height: 63px;
+    background: url(/images/beijing.png) -40px 0;
+    position: absolute;
+    top: 205px;
+    right: 10px;
+    z-index: 1000;
+}
+
+#prev:hover {
+    background: url(/images/beijing.png) 0 -62px;
+}
+
+#next:hover {
+    background: url(/images/beijing.png) -40px -62px;
+}
+
+
+.top {
+    width: 100%;
+    height: 15vh;
+
+    border-bottom: 3px dashed #E68A00;
+}
+
+.logo img {
+    width: 20vw;
+}
+
+.navigation {
+    position: absolute;
+    width: 50vw;
+    height: 3vh;
+    top: 94vh;
+    left: 45vw;
+}
+
+.navigation li {
+    float: right;
+    margin-right: 3vw;
+    color: yellowgreen;
+    font-size: 2vw;
+}
+
+.content {
+    background-color: #E68A00;
+    width: 80%;
+    height: 90vh;
+}
+
+
+.footer {
+    background-color: #1c2b36;
+    height: 20vh;
+}
+
+
+.company_info {
+    background-color: #dbca68;
+    width: 70vw;
+    height: 20vh;
+    float: left;
+
+    display: inline-block;
+}
+
+
+.footer .qrList {
+    width: 20vw;
+    height: 20vh;
+    float: right;
+}
+
+.qr {
+    display: inline-block;
+    margin: 4vh 0 0 1vw;
+    width: 5vw;
+
+    font-size: 1.2vw;
+}
+
+
+.footer img {
+    /*margin-top: 3vh;*/
+    /*margin-left: 1.5vw;*/
+    width: 100%;
+    /*top: 5vh;*/
+}
+

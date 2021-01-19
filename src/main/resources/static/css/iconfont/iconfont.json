@@ -1,0 +1,37 @@
+{
+  "id": "1429295",
+  "name": "稚慧魔方",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "925612",
+      "name": "邮件",
+      "font_class": "youjian",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "9270504",
+      "name": "定位",
+      "font_class": "icon-test",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "10036600",
+      "name": "电 话",
+      "font_class": "dianhua",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    },
+    {
+      "icon_id": "10869486",
+      "name": "电  话",
+      "font_class": "dianhua1",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name:  com.mysql.jdbc.Driver
+    url: jdbc:mysql://gz-cdb-jhvczsyr.sql.tencentcdb.com:59321/sport?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false&zeroDateTimeBehavior=convertToNull
+#    url: jdbc:mysql://127.0.0.1:3306/sport?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false&zeroDateTimeBehavior=convertToNull
+    username: root
+    password: ppppppp8
+  # 配置freemarker
+  freemarker:
+    settings:
+      date_format: yyyy-MM-dd
+      time_format: HH:mm:ss
+      datetime_format: yyyy-MM-dd HH:mm:ss
+    request-context-attribute: request
+    suffix: .ftl
+    content-type: text/html
+
+logging:
+  path: logs
+  level:
+    root: WARN
+

@@ -1,0 +1,21 @@
+#div1 {
+    margin: auto;
+    position: relative;
+}
+
+.box {
+    float: left;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #f7f7f7;
+    box-shadow: 0 0 8px #ccc;
+}
+
+.box:hover {
+    box-shadow: 0 0 10px #999;
+}
+
+.box img {
+    width: 25vw;
+    display: inline-block;
+}
